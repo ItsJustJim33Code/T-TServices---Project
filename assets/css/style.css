@@ -1,3 +1,50 @@
-#logo {
-    background: url("..images/")
+/* Generic Styles */
+
+/* Override Browser default styles to push border to the corners */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+
+    /*  font-family: 'Lato', sans-serif; --> */
+}
+
+/* Nav Section */
+
+
+
+
+
+
+
+
+
+
+/* Header Section */
+#logo-circle {
+    background: url('../images/T&TServices.jpg') no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    position: relative;
+}
+
