@@ -72,6 +72,9 @@ nav {
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
+    box-shadow: 0 0 8px 0 rgba(178,188,177,255);
+    border-bottom: 2px solid rgba(178,188,177,255);
+    padding-top: 8px;
 }
 
 #nav-toggle {
