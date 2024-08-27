@@ -7,6 +7,9 @@
     box-sizing: border-box;
 }
 
+.hidden {
+    display: none;
+}
 
 body {
     min-height: 100vh;
@@ -17,16 +20,77 @@ body {
     /*  font-family: 'Lato', sans-serif; --> */
 }
 
+/* header */
+
+header {
+    background-color: black;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* Nav Section */
 
+#navmenu {
+    font-size: 95%;
+    letter-spacing: 4px;
+    list-style-type: none;
+    width: fit-content;
+}
 
+#navmenu > li {
+    margin-bottom: 1em;
+    color: white;
+}
 
+.active {
+    border-bottom: 3px solid rgba(178,188,177,255);
+}
 
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
 
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
 
+#nav-toggle {
+    display: none;
+}
 
+.nav-toggle-label {
+    font-size: 2rem;
+    color: white;
+}
 
-
+/* Main content */
+main {
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+}
 
 /* Header Section */
 #logo-circle {
@@ -45,6 +109,64 @@ body {
     align-items: center;
     justify-content: center;
     background-color: black;
-    position: relative;
 }
 
+/* Main content */
+main {
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+
+    /* Nav Styles */
+
+    #navmenu {
+        font-size: 95%;
+        letter-spacing: 4px;
+        list-style-type: none;
+        width: fit-content;
+    }
+    
+    #navmenu > li {
+        margin-bottom: 1em;
+        display: inline;
+        font-size: 15px;
+        width: fit-content;
+    }
+    
+    .active {
+        border-bottom: 3px solid rgba(178,188,177,255);
+    }
+    
+    nav {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        padding: 0 1rem;
+        box-shadow: 0 2px 2px #3a3a3a;
+        top: 90%;
+        color: white;
+        display: block;
+    }
+    
+    /* Nav toggle */
+    
+    .nav-toggle-label {
+        font-size: 2rem;
+        display: none;
+    }
+
+}
