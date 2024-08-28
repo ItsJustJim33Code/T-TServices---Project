@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
 /* Generic Styles */
 
 /* Override Browser default styles to push border to the corners */
@@ -16,8 +18,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-
-    /*  font-family: 'Lato', sans-serif; --> */
+    font-family: 'Abel', sans-serif; 
 }
 
 /* header */
@@ -51,6 +52,7 @@ header a {
 #navmenu > li {
     margin-bottom: 1em;
     color: white;
+    text-transform: uppercase;
 }
 
 .active {
@@ -196,6 +198,12 @@ footer a i {
         color: white;
         display: block;
     }
+
+    #navmenu li:hover {
+        color: rgba(178,188,177,255);
+        font-size: 20px;
+        font-weight: 600;
+    }
     
     /* Nav toggle */
     
@@ -216,6 +224,7 @@ footer a i {
 }
 
     footer a {
+        /* Make footer content appear inline on larger screens*/
         display: inline;
         text-decoration: none;
         color: rgba(178,188,177,255);
