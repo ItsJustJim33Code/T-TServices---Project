@@ -135,11 +135,11 @@ main {
     display: flex;
     flex-direction: column; /* Stack items vertically */
     align-items: center;
-    margin-right: 1em; /* Adjust spacing as needed */
+    margin-right: 1em; 
 }
 
 #footer li {
-    color: white; /* Ensure text is visible */
+    color: white;
 }
 
 footer a {
@@ -150,7 +150,7 @@ footer a {
 }
 
 footer a i {
-    margin-right: 8px; /* Adjust spacing as needed */
+    margin-right: 8px;
 
 }
 
@@ -206,10 +206,17 @@ footer a i {
 
     /* Footer */
 
+    #footer {
+        justify-content: space-between; /* Space the divs evenly */
+    }
+
+    #footer div {
+        margin: 0 20px; /* Add Margin for space for the footer content from the borders of the webpage */
+    }
+}
+
     footer a {
         display: inline;
         text-decoration: none;
         color: rgba(178,188,177,255);
     }
-
-}
