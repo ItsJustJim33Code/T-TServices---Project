@@ -32,13 +32,30 @@ header {
     width: 100%;
     box-shadow: 0 4px 4px rgba(178,188,177,255);
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    justify-content: center;
+    align-items: center; 
+    height: 250px; /* Header size to fit the logo */
 }
 
 header a {
     text-decoration: none;
     color: inherit;
+}
+
+/* Logo inside header */
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 100%; /* Ensure it takes the full height of the header */
+}
+
+#logo-circle {
+    background: url('../images/T&TServices.jpg') no-repeat top center / cover;
+    height: 200px; /* Increase height to fit within the larger header if changed */
+    width: 200px; /* Increase width to fit within the larger header if changed*/
+    border-radius: 50%;
 }
 
 /* Nav Section */
@@ -87,56 +104,33 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
     color: white;
+    /* Position the toggle icon bottom right of the header*/
+    position: absolute;
+    bottom: 10px; 
+    right: 10px; 
 }
 
 /* Main content */
 main {
-    /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 280px; /* Adjust this margin to match respectivily to the header height (~+30px) */
     display: flex;
     flex-direction: column;
 }
 
-/* Header Section */
-#logo-circle {
-    background: url('../images/T&TServices.jpg') no-repeat top center / cover;
-    height: 90vw;
-    width: 90vw;
-    margin-bottom: 20px;
-    /* Makes the square image into a circle */
-    border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
-}
-
-#logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-}
-
-/* Main content */
-main {
-    /* Make main element take up any surplus space to push footer down */
-    flex: 1 0 auto;
-    margin-top: 47px;
-    display: flex;
-    flex-direction: column;
-}
-
+/* Footer */
 #footer {
     display: flex;
     list-style-type: none;
     padding: 0;
-    background-color: black; /* Ensure background color is applied */
+    background-color: black;
     border-top: 4px solid rgba(178,188,177,255);
+    justify-content: space-between;
 }
 
 #footer div {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
+    flex-direction: column;
     align-items: center;
     margin-right: 1em; 
 }
@@ -154,23 +148,18 @@ footer a {
 
 footer a i {
     margin-right: 8px;
-
 }
-
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
-
     #logo {
-        justify-content: center; /* Center horizontally */
+        justify-content: center;
         background-color: black;
         margin: 0 auto;
     }
 
-
     /* Nav Styles */
-
     #navmenu {
         font-size: 95%;
         letter-spacing: 4px;
@@ -207,26 +196,23 @@ footer a i {
     }
     
     /* Nav toggle */
-    
     .nav-toggle-label {
         font-size: 2rem;
         display: none;
     }
 
     /* Footer */
-
     #footer {
-        justify-content: space-between; /* Space the divs evenly */
+        justify-content: space-between;
     }
 
     #footer div {
-        margin: 0 20px; /* Add Margin for space for the footer content from the borders of the webpage */
+        margin: 0 20px;
     }
-}
-
+    
     footer a {
-        /* Make footer content appear inline on larger screens*/
         display: inline;
         text-decoration: none;
         color: rgba(178,188,177,255);
     }
+}
