@@ -123,16 +123,16 @@ main {
     flex-direction: column;
 }
 
-
-
-
-
-
-
-
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
+
+    #logo {
+        justify-content: center; /* Center horizontally */
+        background-color: black;
+        margin: 0 auto;
+    }
+
 
     /* Nav Styles */
 
