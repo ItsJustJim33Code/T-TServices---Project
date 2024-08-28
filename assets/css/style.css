@@ -123,6 +123,11 @@ main {
     flex-direction: column;
 }
 
+footer {
+    background: black;
+    border-top: 4px solid rgba(178,188,177,255);
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
