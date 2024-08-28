@@ -18,7 +18,8 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    font-family: 'Abel', sans-serif; 
+    font-family: 'Abel', sans-serif;
+    color: black; 
 }
 
 /* header */
