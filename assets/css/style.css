@@ -123,10 +123,37 @@ main {
     flex-direction: column;
 }
 
-footer {
-    background: black;
+#footer {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    background-color: black; /* Ensure background color is applied */
     border-top: 4px solid rgba(178,188,177,255);
 }
+
+#footer div {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    margin-right: 1em; /* Adjust spacing as needed */
+}
+
+#footer li {
+    color: white; /* Ensure text is visible */
+}
+
+footer a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgba(178,188,177,255);
+}
+
+footer a i {
+    margin-right: 8px; /* Adjust spacing as needed */
+
+}
+
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -175,6 +202,14 @@ footer {
     .nav-toggle-label {
         font-size: 2rem;
         display: none;
+    }
+
+    /* Footer */
+
+    footer a {
+        display: inline;
+        text-decoration: none;
+        color: rgba(178,188,177,255);
     }
 
 }
