@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Generic Styles */
 
@@ -18,10 +18,13 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    font-family: 'Abel', sans-serif;
+    font-family: 'abel', sans-serif;
     color: black; 
 }
 
+h1, h2, h3 {
+    font-family: 'raleway', sans-serif;
+}
 /* header */
 
 header {
