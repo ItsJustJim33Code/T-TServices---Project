@@ -204,7 +204,7 @@ footer a i {
 }
 
 /* Large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) and (max-width: 767px) {
+@media screen and (min-width: 576px) and (max-width: 766px) {
 
     /* Adjust header height for landscape*/
     header {
@@ -225,6 +225,7 @@ footer a i {
         margin-top: 130px; /* Adjust this margin to match respectivily to the header height (~+20px) */
     }
 }
+
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
