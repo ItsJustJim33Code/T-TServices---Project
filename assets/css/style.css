@@ -22,10 +22,10 @@ body {
     color: black; 
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'raleway', sans-serif;
 }
-/* header */
+
 
 header {
     background-color: black;
@@ -116,10 +116,52 @@ nav {
 /* Main content */
 main {
     flex: 1 0 auto;
-    margin-top: 280px; /* Adjust this margin to match respectivily to the header height (~+30px) */
+    margin-top: 260px; /* Adjust this margin to match respectivily to the header height (~+30px) */
     display: flex;
     flex-direction: column;
 }
+
+#about-section {
+    width: 90%;
+    margin: 20px auto;
+    background: url("../images/MechanicWork.webp") no-repeat center/cover;
+}
+
+#about-section h4 {
+    border-bottom: 1px solid rgba(178,188,177,255);
+    color: rgba(178,188,177,255);
+}
+
+#about-section p {
+    color: whitesmoke;
+    margin-left: 5px;
+}
+
+#about {
+        /* Final rgba value sets the opacity so it is semi-transparent */
+        background-color: rgba(0,0,0, 0.7);
+        font-size: 100%;
+        margin-top: 10px;
+        margin: 10px 10px 10px 10px;
+}
+
+#about div h4 {
+    letter-spacing: 1px;
+    margin-left: 5px;
+}
+
+#about div {
+    line-height: 20px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+
+/* #about hr {
+    border-bottom: 1px solid rgba(178,188,177,255);
+}
+*/
+
+/* header */
 
 /* Footer */
 #footer {
