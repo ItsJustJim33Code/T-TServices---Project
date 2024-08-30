@@ -297,7 +297,32 @@ footer a i {
     }
 }
 
-/* Media query: tablets and larger (768px and up) */
+/* Large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+    /* Adjust header height for landscape*/
+    header {
+        height: 120px; /* Header size to fit the logo */
+    }
+
+    /* Logo inside header */
+    #logo {
+    height: 100%; /* Ensure it takes the full height of the header */
+    }   
+
+    #logo-circle {
+    height: 120px; /* Increase height to fit within the larger header if changed */
+    width: 120px; /* Increase width to fit within the larger header if changed*/
+    }
+
+    main {
+        margin-top: 130px; /* Adjust this margin to match respectivily to the header height (~+20px) */
+    }
+
+
+}
+
+/* Media query: tablets and larger (992px and up) */
 @media screen and (min-width: 992px) {
 
         /* about section */ 
