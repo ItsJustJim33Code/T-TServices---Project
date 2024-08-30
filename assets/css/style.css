@@ -120,14 +120,14 @@ main {
     margin-top: 260px; /* Adjust this margin to match respectivily to the header height (~+20px) */
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
-    margin-right: auto;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 /* about section */ 
 
 #about-section {
-    width: 90%;
+    width: 100%;
     background: url("../images/MechanicWork.webp") no-repeat center/cover;
 }
 
@@ -274,7 +274,7 @@ footer a i {
     /* booking section */ 
 
     #booking-section {
-        
+
     }
     
     #book-service {
