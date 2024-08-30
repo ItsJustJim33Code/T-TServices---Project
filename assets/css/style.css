@@ -200,6 +200,16 @@ footer a i {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+    
+    /* Generic Styles */
+    .largescreenshow {
+        display: inline-block;
+    }
+    
+    .largescreenhidden {
+        display: none;
+    }    
+    
     /* Header */
     #logo {
         justify-content: center;
