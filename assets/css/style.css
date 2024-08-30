@@ -141,8 +141,9 @@ main {
         /* Final rgba value sets the opacity so it is semi-transparent */
         background-color: rgba(0,0,0, 0.7);
         font-size: 100%;
-        margin-top: 10px;
         margin: 10px 10px 10px 10px;
+        padding-bottom: 1%;
+        padding-top: 1%;
 }
 
 #about div h4 {
@@ -152,16 +153,9 @@ main {
 
 #about div {
     line-height: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     margin-right: 5px;
 }
-
-/* #about hr {
-    border-bottom: 1px solid rgba(178,188,177,255);
-}
-*/
-
-/* header */
 
 /* Footer */
 #footer {
