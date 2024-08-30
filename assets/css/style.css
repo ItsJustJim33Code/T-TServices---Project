@@ -264,39 +264,12 @@ footer a i {
         display: none;
     }
 
-    /* about section */ 
+    /* about section*/
 
     #about-section {
         width: 100%;
     }
 
-    #about {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .about-left {
-        display: inline-block;
-        width: 45%;
-        margin: 10px;
-    }
-
-    .about-right {
-        display: inline-block;
-        text-align: right;
-        width: 45%;
-        margin: 10px;
-        vertical-align: top;
-    }
-    
-    .about-center {
-        width: 45%;
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    
 
     /* booking section */ 
 
@@ -322,4 +295,40 @@ footer a i {
         text-decoration: none;
         color: rgba(178,188,177,255);
     }
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 992px) {
+
+        /* about section */ 
+
+        #about-section {
+            width: 100%;
+        }
+    
+        #about {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .about-left {
+            display: inline-block;
+            width: 45%;
+            margin: 10px;
+        }
+    
+        .about-right {
+            display: inline-block;
+            text-align: right;
+            width: 45%;
+            margin: 10px;
+            vertical-align: top;
+        }
+        
+        .about-center {
+            width: 45%;
+            text-align: center;
+            margin-top: 20px;
+        }
 }
