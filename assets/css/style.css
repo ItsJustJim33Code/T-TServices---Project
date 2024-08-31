@@ -195,8 +195,9 @@ main {
     border-radius: 5px;
     width: 75%;
     height: 20px;
-    padding: 0 1px;
+    padding: 0 5px;
     margin: 1px 0 1px 0;
+    box-sizing: border-box;
 }
 
 #book-service .submit-button {
@@ -344,6 +345,20 @@ footer a i {
     #book-service {
     
     }
+
+    .text-input {
+        color: white;
+        background: transparent;
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 100%;
+        height: 20px;
+        padding: 0 5px;
+        margin: 1px 0 1px 0;
+        box-sizing: border-box;
+    }
+
+
 
     /* Footer */
     #footer {
