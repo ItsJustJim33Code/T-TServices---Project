@@ -38,7 +38,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center; 
-    height: 250px; /* Header size to fit the logo */
+    height: 230px; /* Header size to fit the logo */
 }
 
 header a {
