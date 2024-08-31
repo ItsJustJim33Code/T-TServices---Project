@@ -169,11 +169,16 @@ main {
     border-radius: 5px;
     margin: 5px 0 5px 0;
     color: black;
+    font-weight: 500;
     max-width: 100%;
 }
 
 .book-service {
     padding: 5px 5px;
+}
+
+.book-service  .bold {
+    font-weight: 600;
 }
 
 .book-service select {
@@ -191,7 +196,7 @@ main {
 .text-input {
     color: white;
     background: transparent;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 5px;
     width: 75%;
     height: 20px;
