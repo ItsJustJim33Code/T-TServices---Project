@@ -164,11 +164,51 @@ main {
 /* booking section */ 
 
 #booking-section {
-
+    background-color: rgba(178,188,177,255);
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px 0 5px 0;
+    color: black;
+    max-width: 100%;
 }
 
 #book-service {
+    padding: 5px 5px;
+}
 
+#book-service select {
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
+
+#service option {
+    background: black;
+    color: white;
+}
+
+
+.text-input {
+    color: white;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 75%;
+    height: 20px;
+    padding: 0 1px;
+    margin: 1px 0 1px 0;
+}
+
+#book-service .submit-button {
+    background: black;
+    color: white;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#book-service .submit-button:hover {
+    background: white;
+    color: black;
 }
 
 /* Footer */
