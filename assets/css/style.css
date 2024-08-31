@@ -172,17 +172,17 @@ main {
     max-width: 100%;
 }
 
-#book-service {
+.book-service {
     padding: 5px 5px;
 }
 
-#book-service select {
+.book-service select {
     background: black;
     color: white;
     border-radius: 5px;
 }
 
-#service option {
+.book-service option {
     background: black;
     color: white;
 }
@@ -200,14 +200,14 @@ main {
     box-sizing: border-box;
 }
 
-#book-service .submit-button {
+.book-service .submit-button {
     background: black;
     color: white;
     border-radius: 5px;
     margin-top: 5px;
 }
 
-#book-service .submit-button:hover {
+.book-service .submit-button:hover {
     background: white;
     color: black;
 }
@@ -269,16 +269,8 @@ footer a i {
 
 
 /* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
-    
-    /* Generic Styles */
-    .largescreenshow {
-        display: inline-block;
-    }
-    
-    .largescreenhidden {
-        display: none;
-    }    
+@media screen and (min-width: 768px) { 
+
     
     /* Header */
     #logo {
@@ -347,18 +339,8 @@ footer a i {
     }
 
     .text-input {
-        color: white;
-        background: transparent;
-        border: 1px solid black;
-        border-radius: 5px;
         width: 100%;
-        height: 20px;
-        padding: 0 5px;
-        margin: 1px 0 1px 0;
-        box-sizing: border-box;
     }
-
-
 
     /* Footer */
     #footer {
@@ -378,6 +360,16 @@ footer a i {
 
 /* Media query: tablets and larger (992px and up) */
 @media screen and (min-width: 992px) {
+
+        /* Generic Styles */
+
+        .largescreenshow {
+            display: inline-block;
+        }
+    
+        div .largescreenhidden {
+            display: none;
+        }   
 
         /* about section */ 
 
@@ -409,5 +401,22 @@ footer a i {
             width: 45%;
             text-align: center;
             margin-top: 20px;
+        }
+
+        /* Booking section */
+
+        #booking-section {
+            background: none;
+        }
+
+        .book-service {
+            background-color: rgba(178,188,177,255);
+            border: 2px solid black;
+            border-radius: 5px;
+            margin: 5px 10px 5px 10px;
+            color: black;
+            max-width: 100%;
+            display: inline-block;
+            justify-content: space-between;
         }
 }
