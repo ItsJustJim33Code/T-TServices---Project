@@ -22,6 +22,10 @@ body {
     color: black; 
 }
 
+p {
+    color: whitesmoke;
+}
+
 h1, h2, h3, h4 {
     font-family: 'raleway', sans-serif;
     color: rgba(178,188,177,255);
@@ -205,6 +209,8 @@ main {
     box-sizing: border-box;
 }
 
+/* create Number plate input */
+
 .reg-ui {
 	background: linear-gradient(to bottom, #f8d038 0%,#f5ca2e 100%);
 	padding: .25em 1em .25em 1.75em;
@@ -220,6 +226,7 @@ main {
     text-align: center;
 }
 
+/* positions the span correctly to resemble a number plate */
 
 .car-reg-box { position: relative; }
 
@@ -227,7 +234,16 @@ main {
     margin: 5px 0 5px ;
 }
 
-#car-reg-id input { display: block; border: 1px solid #d7d6d6; background: #f5ca2e 100%; padding: 10px 10px 10px 20px; width: 195px; height: 15px}
+#car-reg-id input { 
+    display: block; 
+    border: 1px solid #d7d6d6; 
+    background: #f5ca2e 100%; 
+    padding: 10px 10px 10px 20px; 
+    width: 195px; 
+    height: 15px
+}
+
+/* Creates the GB unside the span */
 
 .unit { 	
     content: 'GB';
@@ -251,6 +267,24 @@ main {
     color: white;
     border-radius: 5px;
     margin-top: 5px;
+}
+
+/* Map Section */
+
+/* address */ 
+
+#address {
+    background-color: black;
+    text-align: left;
+}
+
+#address h4 {   
+    border-bottom: 2px solid rgba(178,188,177,255);
+    border-width: 5%;
+}
+
+#address h4, p {
+    margin: 10px 10px;
 }
 
 
@@ -286,7 +320,16 @@ footer a i {
     margin-right: 8px;
 }
 
+@media screen and (min-width: 471px) {
 
+    /* Map Section */
+
+    /* hides this content on screens larger than 471px as the map is able to show full contents beyond that */
+    
+    #address {
+        display: none
+    }
+}
 
 /* Large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) and (max-width: 766px) {
@@ -378,6 +421,8 @@ footer a i {
         background: white;
         color: black;
     }
+
+
 
     /* Footer */
     #footer {
