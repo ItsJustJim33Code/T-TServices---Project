@@ -407,6 +407,7 @@ footer a i {
 
         #booking-section {
             background: none;
+            padding-left: 3%;
         }
 
         .book-service {
@@ -415,8 +416,9 @@ footer a i {
             border-radius: 5px;
             margin: 5px 10px 5px 10px;
             color: black;
+            width: 30%;
             max-width: 100%;
             display: inline-block;
-            justify-content: space-between;
+            align-items: center;
         }
 }
