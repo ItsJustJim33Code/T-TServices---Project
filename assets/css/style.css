@@ -641,6 +641,7 @@ footer a i {
         margin: 5px 10px 5px 10px;
         color: black;
         width: 30%;
+        height: 100%;
         max-width: 100%;
         display: inline-block;
         align-items: center;
@@ -655,5 +656,21 @@ footer a i {
     #photos {
         column-count: 3;
         column-gap: 0;
+    }
+
+    /* gallery section */
+
+    /* allows videos to correctly display in a row of 3 */ 
+
+    #videos {
+        display: flex;
+        flex-wrap: wrap; /* Allows wrapping to the next line if needed */
+        justify-content: space-between; /* Evenly spaces the videos */
+    }
+    
+    .video-spaced {
+        flex: 1 1 calc(33.333% - 10px); /* Each video takes up 1/3 of the row minus some margin */
+        margin: 5px; /* Adjust the margin as needed */
+        box-sizing: border-box; /* Ensures padding and border are included in the width */
     }
 }
