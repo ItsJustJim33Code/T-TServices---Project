@@ -484,12 +484,25 @@ footer a i {
     /* Meet the team */
 
     #the-team {
-        display: flex;
         flex-direction: row;
-        align-items: flex-start;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 
+    .member {
+        flex: 1; 
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0;
+        margin-right: 10px; /* Adds space between members */
+    }
+
+    .member:last-child {
+        margin-right: 0; /* Removes margin from the last member */
+    }
+
+    .member-info {
+        margin-left: 10px;
+    }
     /* Footer */
     #footer {
         justify-content: space-between;
