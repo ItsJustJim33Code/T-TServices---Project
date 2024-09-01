@@ -19,16 +19,19 @@ body {
     flex-direction: column;
     /* Generic project styles */
     font-family: 'abel', sans-serif;
-    color: black; 
+    color: black;
 }
 
 p {
     color: whitesmoke;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: 'raleway', sans-serif;
-    color: rgba(178,188,177,255);
+    color: rgba(178, 188, 177, 255);
 }
 
 
@@ -38,11 +41,12 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 4px 4px rgba(178,188,177,255);
+    box-shadow: 0 4px 4px rgba(178, 188, 177, 255);
     display: flex;
     justify-content: center;
-    align-items: center; 
-    height: 230px; /* Header size to fit the logo */
+    align-items: center;
+    height: 230px;
+    /* Header size to fit the logo */
 }
 
 header a {
@@ -56,13 +60,16 @@ header a {
     align-items: center;
     justify-content: center;
     background-color: black;
-    height: 100%; /* Ensure it takes the full height of the header */
+    height: 100%;
+    /* Ensure it takes the full height of the header */
 }
 
 #logo-circle {
     background: url('../images/T&TServices.jpg') no-repeat top center / cover;
-    height: 200px; /* Increase height to fit within the larger header if changed */
-    width: 200px; /* Increase width to fit within the larger header if changed*/
+    height: 200px;
+    /* Increase height to fit within the larger header if changed */
+    width: 200px;
+    /* Increase width to fit within the larger header if changed*/
     border-radius: 50%;
 }
 
@@ -75,14 +82,14 @@ header a {
     width: fit-content;
 }
 
-#navmenu > li {
+#navmenu>li {
     margin-bottom: 1em;
     color: white;
     text-transform: uppercase;
 }
 
 .active {
-    border-bottom: 3px solid rgba(178,188,177,255);
+    border-bottom: 3px solid rgba(178, 188, 177, 255);
 }
 
 /* Navbar styles with dropdown toggle */
@@ -100,8 +107,8 @@ nav {
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
-    box-shadow: 0 0 8px 0 rgba(178,188,177,255);
-    border-bottom: 2px solid rgba(178,188,177,255);
+    box-shadow: 0 0 8px 0 rgba(178, 188, 177, 255);
+    border-bottom: 2px solid rgba(178, 188, 177, 255);
     padding-top: 8px;
 }
 
@@ -114,21 +121,22 @@ nav {
     color: white;
     /* Position the toggle icon bottom right of the header*/
     position: absolute;
-    bottom: 10px; 
-    right: 10px; 
+    bottom: 10px;
+    right: 10px;
 }
 
 /* Main content */
 main {
     flex: 1 0 auto;
-    margin-top: 260px; /* Adjust this margin to match respectivily to the header height (~+20px) */
+    margin-top: 260px;
+    /* Adjust this margin to match respectivily to the header height (~+20px) */
     display: flex;
     flex-direction: column;
     margin-left: 30px;
     margin-right: 30px;
 }
 
-/* about section */ 
+/* about section */
 
 #about-section {
     width: 100%;
@@ -136,7 +144,8 @@ main {
 }
 
 #about-section h4 {
-    border-bottom: 1px solid rgba(178,188,177,255); /* added border bottom to create a underline with more config such as color */
+    border-bottom: 1px solid rgba(178, 188, 177, 255);
+    /* added border bottom to create a underline with more config such as color */
 }
 
 #about-section p {
@@ -145,13 +154,13 @@ main {
 }
 
 #about {
-        /* Final rgba value sets the opacity so it is semi-transparent */
-        background-color: rgba(0,0,0, 0.7);
-        font-size: 100%;
-        /* margin and padding to move the text away from the edges of the background */
-        margin: 10px 10px 10px 10px;
-        padding-bottom: 1%;
-        padding-top: 1%;
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 100%;
+    /* margin and padding to move the text away from the edges of the background */
+    margin: 10px 10px 10px 10px;
+    padding-bottom: 1%;
+    padding-top: 1%;
 }
 
 #about div h4 {
@@ -165,10 +174,10 @@ main {
     margin-right: 5px;
 }
 
-/* booking section */ 
+/* booking section */
 
 #booking-section {
-    background-color: rgba(178,188,177,255);
+    background-color: rgba(178, 188, 177, 255);
     border: 2px solid black;
     border-radius: 5px;
     margin: 5px 0 5px 0;
@@ -212,14 +221,14 @@ main {
 /* create Number plate input */
 
 .reg-ui {
-	background: linear-gradient(to bottom, #f8d038 0%,#f5ca2e 100%);
-	padding: .25em 1em .25em 1.75em;
-	font-weight: bold;
-	font-size: 2em;
-	border-radius: 5px;
-	border: 1px solid #000;
-	box-shadow: 1px 1px 1px #ddd;
-	position: relative;
+    background: linear-gradient(to bottom, #f8d038 0%, #f5ca2e 100%);
+    padding: .25em 1em .25em 1.75em;
+    font-weight: bold;
+    font-size: 2em;
+    border-radius: 5px;
+    border: 1px solid #000;
+    box-shadow: 1px 1px 1px #ddd;
+    position: relative;
     font-family: helvetica, ariel, sans-serif;
     text-transform: uppercase;
     font-size: 1em;
@@ -228,38 +237,40 @@ main {
 
 /* positions the span correctly to resemble a number plate */
 
-.car-reg-box { position: relative; }
-
-#car-reg-id {
-    margin: 5px 0 5px ;
+.car-reg-box {
+    position: relative;
 }
 
-#car-reg-id input { 
-    display: block; 
-    border: 1px solid #d7d6d6; 
-    background: #f5ca2e 100%; 
-    padding: 10px 10px 10px 20px; 
-    width: 195px; 
+#car-reg-id {
+    margin: 5px 0 5px;
+}
+
+#car-reg-id input {
+    display: block;
+    border: 1px solid #d7d6d6;
+    background: #f5ca2e 100%;
+    padding: 10px 10px 10px 20px;
+    width: 195px;
     height: 15px
 }
 
 /* Creates the GB unside the span */
 
-.unit { 	
+.unit {
     content: 'GB';
     font-family: helvetica, ariel, sans-serif;
     font-weight: bold;
-	display: block;
-	width: 30px;
-	height: 100%;
-    font-size:0.7em;
-	background: #063298;
-	position: absolute;
-	top: 0;
-	border-radius: 5px 0 0 5px;
-	color: #f8d038;
-	line-height: 23px;
-	padding-left: 5px;
+    display: block;
+    width: 30px;
+    height: 100%;
+    font-size: 0.7em;
+    background: #063298;
+    position: absolute;
+    top: 0;
+    border-radius: 5px 0 0 5px;
+    color: #f8d038;
+    line-height: 23px;
+    padding-left: 5px;
 }
 
 .book-service .submit-button {
@@ -271,7 +282,7 @@ main {
 
 /* Map Section */
 
-/* address */ 
+/* address */
 
 #address {
     background-color: black;
@@ -280,12 +291,13 @@ main {
     border-radius: 5px;
 }
 
-#address h4 {   
-    border-bottom: 2px solid rgba(178,188,177,255);
+#address h4 {
+    border-bottom: 2px solid rgba(178, 188, 177, 255);
     border-width: 5%;
 }
 
-#address h4, p {
+#address h4,
+p {
     margin: 10px 10px;
 }
 
@@ -307,7 +319,7 @@ main {
 }
 
 .member-info h4 {
-    border-bottom: 1px solid rgba(178,188,177,255);
+    border-bottom: 1px solid rgba(178, 188, 177, 255);
 }
 
 .member-info i {
@@ -321,7 +333,9 @@ main {
     border-bottom: none;
 }
 
-#the-team #member1, #member2, #member3 {
+#the-team #member1,
+#member2,
+#member3 {
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -346,6 +360,35 @@ main {
     background: url("../images/placeholderimage3.jpg") no-repeat center/cover;
 }
 
+/* Gallery Section */
+
+/* Lined heading creates a line either side of the element (in this case the h2) */
+
+.lined-heading {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.lined-heading::before,
+.lined-heading::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid rgba(178, 188, 177, 255);
+    margin: 0 10px;
+    /* Adjust the spacing between the line and the text */
+}
+
+#photos img {
+    width: 100%;
+    line-height: 1em;
+    margin-bottom: 2px;
+}
+
+#photos {
+    line-height: 0;
+}
 
 /* Footer */
 #footer {
@@ -353,7 +396,7 @@ main {
     list-style-type: none;
     padding: 0;
     background-color: black;
-    border-top: 4px solid rgba(178,188,177,255);
+    border-top: 4px solid rgba(178, 188, 177, 255);
     justify-content: space-between;
 }
 
@@ -361,7 +404,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 1em; 
+    margin-right: 1em;
 }
 
 #footer li {
@@ -372,7 +415,7 @@ footer a {
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: rgba(178,188,177,255);
+    color: rgba(178, 188, 177, 255);
 }
 
 footer a i {
@@ -384,7 +427,7 @@ footer a i {
     /* Map Section */
 
     /* hides this content on screens larger than 471px as the map is able to show full contents beyond that */
-    
+
     #address {
         display: none
     }
@@ -395,29 +438,34 @@ footer a i {
 
     /* Adjust header height for landscape*/
     header {
-        height: 120px; /* Header size to fit the logo */
+        height: 120px;
+        /* Header size to fit the logo */
     }
 
     /* Logo inside header */
     #logo {
-    height: 100%; /* Ensure it takes the full height of the header */
-    }   
+        height: 100%;
+        /* Ensure it takes the full height of the header */
+    }
 
     #logo-circle {
-    height: 120px; /* Increase height to fit within the larger header if changed */
-    width: 120px; /* Increase width to fit within the larger header if changed*/
+        height: 120px;
+        /* Increase height to fit within the larger header if changed */
+        width: 120px;
+        /* Increase width to fit within the larger header if changed*/
     }
 
     main {
-        margin-top: 130px; /* Adjust this margin to match respectivily to the header height (~+20px) */
+        margin-top: 130px;
+        /* Adjust this margin to match respectivily to the header height (~+20px) */
     }
 }
 
 
 /* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) { 
+@media screen and (min-width: 768px) {
 
-    
+
     /* Header */
     #logo {
         justify-content: center;
@@ -432,18 +480,18 @@ footer a i {
         list-style-type: none;
         width: fit-content;
     }
-    
-    #navmenu > li {
+
+    #navmenu>li {
         margin-bottom: 1em;
         display: inline;
         font-size: 15px;
         width: fit-content;
     }
-    
+
     .active {
-        border-bottom: 3px solid rgba(178,188,177,255);
+        border-bottom: 3px solid rgba(178, 188, 177, 255);
     }
-    
+
     nav {
         position: absolute;
         width: 100%;
@@ -456,11 +504,11 @@ footer a i {
     }
 
     #navmenu li:hover {
-        color: rgba(178,188,177,255);
+        color: rgba(178, 188, 177, 255);
         font-size: 20px;
         font-weight: 600;
     }
-    
+
     /* Nav toggle */
     .nav-toggle-label {
         font-size: 2rem;
@@ -475,7 +523,7 @@ footer a i {
     }
 
 
-    /* booking section */ 
+    /* booking section */
 
     .book-service .submit-button:hover {
         background: white;
@@ -490,20 +538,23 @@ footer a i {
     }
 
     .member {
-        flex: 1; 
+        flex: 1;
         flex-direction: column;
         align-items: center;
         margin-bottom: 0;
-        margin-right: 10px; /* Adds space between members */
+        margin-right: 10px;
+        /* Adds space between members */
     }
 
     .member:last-child {
-        margin-right: 0; /* Removes margin from the last member */
+        margin-right: 0;
+        /* Removes margin from the last member */
     }
 
     .member-info {
         margin-left: 10px;
     }
+
     /* Footer */
     #footer {
         justify-content: space-between;
@@ -512,79 +563,86 @@ footer a i {
     #footer div {
         margin: 0 20px;
     }
-    
+
     footer a {
         display: inline;
         text-decoration: none;
-        color: rgba(178,188,177,255);
+        color: rgba(178, 188, 177, 255);
     }
 }
 
 /* Media query: tablets and larger (992px and up) */
 @media screen and (min-width: 992px) {
 
-        /* Generic Styles */
+    /* Generic Styles */
 
-        .largescreenshow {
-            display: inline-block;
-        }
-    
-        div .largescreenhidden {
-            display: none;
-        }   
+    .largescreenshow {
+        display: inline-block;
+    }
 
-        /* about section */ 
+    div .largescreenhidden {
+        display: none;
+    }
 
-        #about-section {
-            width: 100%;
-        }
-    
-        #about {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        
-        .about-left {
-            display: inline-block;
-            width: 45%;
-            margin: 10px;
-        }
-    
-        .about-right {
-            display: inline-block;
-            text-align: right;
-            width: 45%;
-            margin: 10px;
-            vertical-align: top;
-        }
-        
-        .about-center {
-            width: 45%;
-            text-align: center;
-            margin-top: 20px;
-        }
+    /* about section */
 
-        /* Booking section */
+    #about-section {
+        width: 100%;
+    }
 
-        #booking-section {
-            background: none;
-            padding-left: 3%;
-        }
+    #about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-        .book-service {
-            background-color: rgba(178,188,177,255);
-            border: 2px solid black;
-            border-radius: 5px;
-            margin: 5px 10px 5px 10px;
-            color: black;
-            width: 30%;
-            max-width: 100%;
-            display: inline-block;
-            align-items: center;
-        }
+    .about-left {
+        display: inline-block;
+        width: 45%;
+        margin: 10px;
+    }
 
-        .text-input:hover {
-            border-color: orange;
-        }
+    .about-right {
+        display: inline-block;
+        text-align: right;
+        width: 45%;
+        margin: 10px;
+        vertical-align: top;
+    }
+
+    .about-center {
+        width: 45%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    /* Booking section */
+
+    #booking-section {
+        background: none;
+        padding-left: 3%;
+    }
+
+    .book-service {
+        background-color: rgba(178, 188, 177, 255);
+        border: 2px solid black;
+        border-radius: 5px;
+        margin: 5px 10px 5px 10px;
+        color: black;
+        width: 30%;
+        max-width: 100%;
+        display: inline-block;
+        align-items: center;
+    }
+
+    .text-input:hover {
+        border-color: orange;
+    }
+
+    /* gallery section */
+
+    #photos {
+        column-count: 3;
+        column-gap: 0;
+    }
 }
