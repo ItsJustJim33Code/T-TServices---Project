@@ -332,6 +332,9 @@ iframe {
     align-self: flex-start;
 }
 
+.member-info h3 {
+    text-align: center;
+}
 .member-info h4 {
     border-bottom: 1px solid rgba(178, 188, 177, 255);
 }
