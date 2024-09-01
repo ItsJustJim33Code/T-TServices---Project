@@ -390,6 +390,17 @@ p {
     line-height: 0;
 }
 
+#videos video {
+    width: 100%;
+    line-height: 1em;
+    margin-bottom: 2px;
+    height: auto;
+}
+
+#videos {
+    line-height: 0;
+}
+
 /* Footer */
 #footer {
     display: flex;
