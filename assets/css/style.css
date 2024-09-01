@@ -242,7 +242,7 @@ main {
 }
 
 #car-reg-id {
-    margin: 5px 0 5px;
+    margin: 5px 0 10px;
 }
 
 #car-reg-id input {
@@ -310,6 +310,7 @@ iframe {
     flex: 1;
     border: 0;
     height: 35vh;
+    width: 100vh;
 }
 
 /* Meet the team section */
@@ -595,7 +596,7 @@ footer a i {
     }
 }
 
-/* Media query: tablets and larger (950px and up) */
+/* Media query: laptops and larger (950px and up) */
 @media screen and (min-width: 950px) {
 
     /* Generic Styles */
