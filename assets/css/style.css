@@ -492,7 +492,7 @@ footer a i {
     .member {
         flex: 1; 
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         margin-bottom: 0;
         margin-right: 10px; /* Adds space between members */
     }
