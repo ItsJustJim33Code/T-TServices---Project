@@ -280,8 +280,6 @@ main {
     margin-top: 5px;
 }
 
-/* Map Section */
-
 /* address */
 
 #address {
@@ -289,6 +287,7 @@ main {
     text-align: left;
     border: 2px solid black;
     border-radius: 5px;
+    margin-bottom: 5px;
 }
 
 #address h4 {
@@ -300,6 +299,20 @@ main {
 p {
     margin: 10px 10px;
 }
+
+/* Map section */
+#map-div {
+    flex: 1;
+    display: flex;
+}
+
+iframe {
+    flex: 1;
+    border: 0;
+    height: 35vh;
+}
+
+/* Meet the team section */
 
 #the-team {
     display: flex;
@@ -652,14 +665,13 @@ footer a i {
         border-color: orange;
     }
 
+
     /* gallery section */
 
     #photos {
         column-count: 3;
         column-gap: 0;
     }
-
-    /* gallery section */
 
     /* allows videos to correctly display in a row of 3 */ 
 
