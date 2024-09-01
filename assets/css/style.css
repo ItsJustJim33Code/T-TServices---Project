@@ -434,6 +434,7 @@ iframe {
 
 #footer li {
     color: white;
+    margin: 0 20px 0 20px;
 }
 
 footer a {
@@ -585,8 +586,8 @@ footer a i {
         justify-content: space-between;
     }
 
-    #footer div {
-        margin: 0 20px;
+    #footer li {
+        margin: 0 20px
     }
 
     footer a {
