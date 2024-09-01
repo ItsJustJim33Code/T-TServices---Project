@@ -184,11 +184,11 @@ main {
     color: black;
     font-weight: 500;
     max-width: 100%;
-    flex-grow: 1;
 }
 
 .book-service {
     padding: 5px 5px;
+    height: 100%;
 }
 
 .book-service .bold {
@@ -582,8 +582,8 @@ footer a i {
     }
 }
 
-/* Media query: tablets and larger (992px and up) */
-@media screen and (min-width: 992px) {
+/* Media query: tablets and larger (950px and up) */
+@media screen and (min-width: 950px) {
 
     /* Generic Styles */
 
@@ -634,10 +634,7 @@ footer a i {
         padding-left: 3%;
     }
 
-    #book-service-div {
-        height: fit-content;
-    }
-
+    
     .book-service {
         background-color: rgba(178, 188, 177, 255);
         border: 2px solid black;
@@ -645,7 +642,7 @@ footer a i {
         margin: 5px 10px 5px 10px;
         color: black;
         width: 30%;
-        height: fit-content;
+        height: 100%;
         max-width: 100%;
         display: inline-block;
         align-items: center;
