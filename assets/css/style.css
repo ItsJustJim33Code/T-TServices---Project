@@ -634,6 +634,10 @@ footer a i {
         padding-left: 3%;
     }
 
+    #book-service-div {
+        height: fit-content;
+    }
+
     .book-service {
         background-color: rgba(178, 188, 177, 255);
         border: 2px solid black;
@@ -641,7 +645,7 @@ footer a i {
         margin: 5px 10px 5px 10px;
         color: black;
         width: 30%;
-        height: 100%;
+        height: fit-content;
         max-width: 100%;
         display: inline-block;
         align-items: center;
