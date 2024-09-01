@@ -289,6 +289,63 @@ main {
     margin: 10px 10px;
 }
 
+#the-team {
+    display: flex;
+    flex-direction: column;
+}
+
+.member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.member-info {
+    margin-left: 0px;
+    align-self: flex-start;
+}
+
+.member-info h4 {
+    border-bottom: 1px solid rgba(178,188,177,255);
+}
+
+.member-info i {
+    color: black;
+}
+
+.member-info p {
+    color: black;
+    text-align: left;
+    margin-left: 0px;
+    border-bottom: none;
+}
+
+#the-team #member1, #member2, #member3 {
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* make background images into a circle */
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+
+#member1 {
+    background: url("../images/placeholderimage1.jpg") no-repeat center/cover;
+}
+
+#member2 {
+    background: url("../images/placeholderimage2.jpg") no-repeat center/cover;
+}
+
+#member3 {
+    background: url("../images/placeholderimage3.jpg") no-repeat center/cover;
+}
+
 
 /* Footer */
 #footer {
@@ -424,7 +481,14 @@ footer a i {
         color: black;
     }
 
+    /* Meet the team */
 
+    #the-team {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-evenly;
+    }
 
     /* Footer */
     #footer {
