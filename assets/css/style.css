@@ -462,8 +462,10 @@ footer a i {
     }
 }
 
+
+
 /* Large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) and (max-width: 766px) {
+@media screen and (min-width: 576px) and (max-width: 900px) and (orientation: landscape) {
 
     /* Adjust header height for landscape*/
     header {
