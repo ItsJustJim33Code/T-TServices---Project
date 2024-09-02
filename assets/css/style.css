@@ -63,6 +63,7 @@ header a {
     background-color: black;
     height: 100%;
     /* Ensure it takes the full height of the header */
+    z-index: 98;
 }
 
 #logo-circle {
@@ -72,6 +73,7 @@ header a {
     width: 200px;
     /* Increase width to fit within the larger header if changed*/
     border-radius: 50%;
+    z-index: 97;
 }
 
 /* Nav Section */
