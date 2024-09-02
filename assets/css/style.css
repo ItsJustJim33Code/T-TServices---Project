@@ -1,3 +1,4 @@
+/* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* Generic Styles */
@@ -31,7 +32,7 @@ h2,
 h3,
 h4 {
     font-family: 'raleway', sans-serif;
-    color: rgba(178, 188, 177, 255);
+    color: rgba(178, 188, 177, 0.8);
 }
 
 
@@ -41,7 +42,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 4px 4px rgba(178, 188, 177, 255);
+    box-shadow: 0 4px 4px rgba(178, 188, 177, 0.8);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,7 +90,7 @@ header a {
 }
 
 .active {
-    border-bottom: 3px solid rgba(178, 188, 177, 255);
+    border-bottom: 3px solid rgba(178, 188, 177, 0.8);
 }
 
 /* Navbar styles with dropdown toggle */
@@ -107,8 +108,8 @@ nav {
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
-    box-shadow: 0 0 8px 0 rgba(178, 188, 177, 255);
-    border-bottom: 2px solid rgba(178, 188, 177, 255);
+    box-shadow: 0 0 8px 0 rgba(178, 188, 177, 0.8);
+    border-bottom: 2px solid rgba(178, 188, 177, 0.8);
     padding-top: 8px;
 }
 
@@ -144,7 +145,7 @@ main {
 }
 
 #about-section h4 {
-    border-bottom: 1px solid rgba(178, 188, 177, 255);
+    border-bottom: 1px solid rgba(178, 188, 177, 0.8);
     /* added border bottom to create a underline with more config such as color */
 }
 
@@ -177,7 +178,7 @@ main {
 /* booking section */
 
 #booking-section {
-    background-color: rgba(178, 188, 177, 255);
+    background-color: rgba(178, 188, 177, 0.8);
     border: 2px solid black;
     border-radius: 5px;
     margin: 5px 0 5px 0;
@@ -324,14 +325,14 @@ main {
 #address {
     background-color: black;
     text-align: left;
-    border: 2px solid black;
+    border: 2px solid;
     border-radius: 5px;
     margin-bottom: 5px;
 }
 
 #address h4 {
-    border-bottom: 2px solid rgba(178, 188, 177, 255);
-    border-width: 5%;
+    border-bottom: 2px solid rgba(178, 188, 177, 0.8);
+    border-width: 2px;
 }
 
 #address h4,
@@ -376,7 +377,7 @@ iframe {
 }
 
 .member-info h4 {
-    border-bottom: 1px solid rgba(178, 188, 177, 255);
+    border-bottom: 1px solid rgba(178, 188, 177, 0.8);
 }
 
 .member-info i {
@@ -432,7 +433,7 @@ iframe {
 .lined-heading::after {
     content: "";
     flex: 1;
-    border-bottom: 1px solid rgba(178, 188, 177, 255);
+    border-bottom: 1px solid rgba(178, 188, 177, 0.8);
     margin: 0 10px;
     /* Adjust the spacing between the line and the text */
 }
@@ -465,7 +466,7 @@ iframe {
     list-style-type: none;
     padding: 1% 0 1% 0;
     background-color: black;
-    border-top: 4px solid rgba(178, 188, 177, 255);
+    border-top: 4px solid rgba(178, 188, 177, 0.8);
     justify-content: space-between;
 }
 
@@ -485,7 +486,7 @@ footer a {
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: rgba(178, 188, 177, 255);
+    color: rgba(178, 188, 177, 0.8);
 }
 
 footer a i {
@@ -561,7 +562,7 @@ footer a i {
     }
 
     .active {
-        border-bottom: 3px solid rgba(178, 188, 177, 255);
+        border-bottom: 3px solid rgba(178, 188, 177, 1);
     }
 
     nav {
@@ -576,7 +577,7 @@ footer a i {
     }
 
     #navmenu li:hover {
-        color: rgba(178, 188, 177, 255);
+        color: rgba(178, 188, 177, 1);
         font-size: 20px;
         font-weight: 600;
     }
@@ -639,7 +640,7 @@ footer a i {
     footer a {
         display: inline;
         text-decoration: none;
-        color: rgba(178, 188, 177, 255);
+        color: rgba(178, 188, 177, 0.8);
     }
 }
 
@@ -707,7 +708,7 @@ footer a i {
 
 
     .book-service {
-        background-color: rgba(178, 188, 177, 255);
+        background-color: rgba(178, 188, 177, 0.8);
         border: 2px solid black;
         border-radius: 5px;
         margin: 5px 10px 5px 10px;
