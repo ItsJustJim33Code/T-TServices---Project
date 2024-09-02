@@ -422,7 +422,7 @@ iframe {
 #footer {
     display: flex;
     list-style-type: none;
-    padding: 0;
+    padding: 1% 0 1% 0;
     background-color: black;
     border-top: 4px solid rgba(178, 188, 177, 255);
     justify-content: space-between;
