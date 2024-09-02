@@ -374,6 +374,7 @@ iframe {
 .member-info h3 {
     text-align: center;
 }
+
 .member-info h4 {
     border-bottom: 1px solid rgba(178, 188, 177, 255);
 }
@@ -654,6 +655,14 @@ footer a i {
         display: none;
     }
 
+    #navmenu>li,
+    #footer>li,
+    #about,
+    #booking-section {
+        font-size: 1.2em;
+    }
+
+
     /* about section */
 
     #about-section {
@@ -695,7 +704,7 @@ footer a i {
         padding-left: 3%;
     }
 
-    
+
     .book-service {
         background-color: rgba(178, 188, 177, 255);
         border: 2px solid black;
@@ -721,17 +730,22 @@ footer a i {
         column-gap: 0;
     }
 
-    /* allows videos to correctly display in a row of 3 */ 
+    /* allows videos to correctly display in a row of 3 */
 
     #videos {
         display: flex;
-        flex-wrap: wrap; /* Allows wrapping to the next line if needed */
-        justify-content: space-between; /* Evenly spaces the videos */
+        flex-wrap: wrap;
+        /* Allows wrapping to the next line if needed */
+        justify-content: space-between;
+        /* Evenly spaces the videos */
     }
-    
+
     .video-spaced {
-        flex: 1 1 calc(33.333% - 10px); /* Each video takes up 1/3 of the row minus some margin */
-        margin: 5px; /* Adjust the margin as needed */
-        box-sizing: border-box; /* Ensures padding and border are included in the width */
+        flex: 1 1 calc(33.333% - 10px);
+        /* Each video takes up 1/3 of the row minus some margin */
+        margin: 5px;
+        /* Adjust the margin as needed */
+        box-sizing: border-box;
+        /* Ensures padding and border are included in the width */
     }
 }
