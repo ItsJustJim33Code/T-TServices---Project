@@ -254,6 +254,45 @@ main {
     height: 15px
 }
 
+#car-reg-id-1 {
+    margin: 5px 0 10px;
+}
+
+#car-reg-id-1 input {
+    display: block;
+    border: 1px solid #d7d6d6;
+    background: #f5ca2e 100%;
+    padding: 10px 10px 10px 20px;
+    width: 195px;
+    height: 15px
+}
+
+#car-reg-id-2 {
+    margin: 5px 0 10px;
+}
+
+#car-reg-id-2 input {
+    display: block;
+    border: 1px solid #d7d6d6;
+    background: #f5ca2e 100%;
+    padding: 10px 10px 10px 20px;
+    width: 195px;
+    height: 15px
+}
+
+#car-reg-id-3 {
+    margin: 5px 0 10px;
+}
+
+#car-reg-id-3 input {
+    display: block;
+    border: 1px solid #d7d6d6;
+    background: #f5ca2e 100%;
+    padding: 10px 10px 10px 20px;
+    width: 195px;
+    height: 15px
+}
+
 /* Creates the GB unside the span */
 
 .unit {
