@@ -493,6 +493,7 @@ footer a i {
     margin-right: 8px;
 }
 
+/* Mobile screens (471px and up) */
 @media screen and (min-width: 471px) {
 
     /* Map Section */
@@ -529,7 +530,7 @@ footer a i {
     }
 
     main {
-        margin-top: 130px;
+        margin-top: 150px;
         /* Adjust this margin to match respectivily to the header height (~+20px) */
     }
 }
