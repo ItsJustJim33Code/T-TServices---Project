@@ -717,6 +717,7 @@ footer a i {
         max-width: 100%;
         display: inline-block;
         align-items: center;
+        justify-content: space-evenly;
     }
 
     .text-input:hover {
