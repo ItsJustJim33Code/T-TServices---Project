@@ -670,6 +670,7 @@ footer a i {
         display: inline-block;
         width: 45%;
         margin: 10px;
+        padding-right: 10%;
     }
 
     .about-right {
@@ -678,6 +679,7 @@ footer a i {
         width: 45%;
         margin: 10px;
         vertical-align: top;
+        padding-left: 10%;
     }
 
     .about-center {
