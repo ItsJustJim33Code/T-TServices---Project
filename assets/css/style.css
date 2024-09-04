@@ -263,49 +263,16 @@ main {
     position: relative;
 }
 
-#car-reg-id {
-    margin: 5px 0 10px;
-}
-
-#car-reg-id input {
-    display: block;
-    border: 1px solid #d7d6d6;
-    background: #f5ca2e 100%;
-    padding: 10px 10px 10px 20px;
-    width: 195px;
-    height: 15px
-}
-
-#car-reg-id-1 {
-    margin: 5px 0 10px;
-}
-
-#car-reg-id-1 input {
-    display: block;
-    border: 1px solid #d7d6d6;
-    background: #f5ca2e 100%;
-    padding: 10px 10px 10px 20px;
-    width: 195px;
-    height: 15px
-}
-
-#car-reg-id-2 {
-    margin: 5px 0 10px;
-}
-
-#car-reg-id-2 input {
-    display: block;
-    border: 1px solid #d7d6d6;
-    background: #f5ca2e 100%;
-    padding: 10px 10px 10px 20px;
-    width: 195px;
-    height: 15px
-}
-
+#car-reg-id,
+#car-reg-id-1,
+#car-reg-id-2,
 #car-reg-id-3 {
     margin: 5px 0 10px;
 }
 
+#car-reg-id input,
+#car-reg-id-1 input,
+#car-reg-id-2 input,
 #car-reg-id-3 input {
     display: block;
     border: 1px solid #d7d6d6;
@@ -482,28 +449,35 @@ iframe {
 
 /* Contact-Us Page */
 
-#contact-us-section {
-    display: flex;
-    flex-direction: column; /* Stack items vertically */
-}
-
-#contact-us-section > div {
-    flex: 1; /* Each div will take up an equal amount of space */
-    border: 1px solid black;
-    padding: 20px;
-    box-sizing: border-box; /* Ensures padding and border are included in the width and height */
-}
-
-
 #contact-us-main {
-    background: url("../images/gallery-photos/TandTVan.jpg") no-repeat center/cover;
-    background-position: 75%;
+    background: url("../images/gallery-photos/TandTVan.jpg") no-repeat;
+    background-position: 5%;
     flex-grow: 1;
-    padding: 20px 10% 0 10%;
+    padding: 2% 5% 0 5%;
     margin-bottom: 30px;
 }
 
-#contact-us-main h1, h2, h3, h4 {
+#contact-us-section {
+    display: flex;
+    flex-direction: column;
+    /* Stack items vertically */
+}
+
+#contact-us-section>div {
+    flex: 1;
+    /* Each div will take up an equal amount of space */
+    border: 1px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+    /* Ensures padding and border are included in the width and height */
+    margin-bottom: 2%;
+}
+
+
+#contact-us-main h1,
+h2,
+h3,
+h4 {
     color: black
 }
 
@@ -517,7 +491,7 @@ iframe {
 
 #address-info,
 #opening-times {
-    padding-top: 2%;
+    padding-top: 3%;
 }
 
 #address-info {
@@ -531,8 +505,52 @@ iframe {
 
 /* Opening Times */
 
+#opening-times,
+#address-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* Center text inside the div */
+}
+
+#opening-times h4,
+#address-info h4 {
+    display: inline-block;
+    border-bottom: 1px solid black;
+}
+
+#opening-times i,
+#address-info i {
+    margin-right: 4px;
+}
+
+
+
+.next-to {
+    display: flex;
+    align-items: center;
+}
+
+
+#opening-times table {
+    border-collapse: collapse;
+    width: 50%;
+    /* Adjust as needed */
+}
+
 #opening-times th {
     text-align: right;
+    /* border: 1px solid black; */
+    padding: 8px;
+    white-space: nowrap;
+    /* Prevent text from wrapping */
+}
+
+#opening-times td {
+    white-space: nowrap;
+    /* Prevent text from wrapping */
 }
 
 /* Contact form */
@@ -543,6 +561,22 @@ iframe {
     border-radius: 5px;
 }
 
+.message-input {
+    color: black;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 100%;
+    height: fit-content;
+    padding: 0 5px;
+    margin: 1px 0 1px 0;
+    box-sizing: border-box;
+}
+
+.message-input::placeholder {
+    color: black;
+}
+
 /* Useful links */
 
 #useful-links-div {
@@ -551,7 +585,7 @@ iframe {
     border-radius: 5px;
 }
 
-#useful-links-list > li {
+#useful-links-list>li {
     color: black;
 }
 
@@ -739,11 +773,13 @@ footer a i {
         display: flex;
     }
 
-    #contact-us-section > div {
-        flex: 1; /* Each div will take up an equal amount of space */
+    #contact-us-section>div {
+        flex: 1;
+        /* Each div will take up an equal amount of space */
         border: 1px solid black;
         padding: 20px;
-        box-sizing: border-box; /* Ensures padding and border are included in the width and height */
+        box-sizing: border-box;
+        /* Ensures padding and border are included in the width and height */
     }
 
 

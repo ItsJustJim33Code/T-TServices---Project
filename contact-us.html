@@ -66,16 +66,28 @@
         <section id="contact-us-section">
             <h2 class="hidden">Address section</h2>
             <div id="address-div">
-                <div id="address-info"
-                <h4><i class="fa-solid fa-address-book"></i> Address: </h4>
-                <p>Hayling industrial park</p>
-                <p>132 Havant Road</p>
-                <p>Hayling island</p>
-                <p>PO11 0LJ</p>
-                <p>+44 2392 637 649</p>
+                <div id="address-info">
+                    <div class="next-to">
+                        <i class="fa-solid fa-address-book"></i>
+                        <h4> Address: </h4>
+                    </div>
+                    <p>Hayling industrial park</p>
+                    <p>132 Havant Road</p>
+                    <p>Hayling island</p>
+                    <p>PO11 0LJ</p>
+                    <p>+44 2392 637 649</p>
                 </div>
                 <div id="opening-times">
+                    <div class="next-to">
+                        <i class="fa-solid fa-person-walking"></i>
+                        <h4> Opening Times: </h4>
+                    </div>
+                    <br>
                     <table>
+                        <tr>
+                            <th>Sunday: </th>
+                            <td>Closed</td>
+                        </tr>
                         <tr>
                             <th>Monday: </th>
                             <td>8am - 5pm</td>
@@ -100,10 +112,6 @@
                             <th>Saturday: </th>
                             <td>9am - 12 noon</td>
                         </tr>
-                        <tr>
-                            <th>Sunday: </th>
-                            <td>Closed</td>
-                        </tr>
                     </table>
                 </div>
             </div>
@@ -124,20 +132,27 @@
                     <label for="email-contact">Email Address:</label>
                     <input id="email-contact" class="text-input" name="email" type="email" required>
                     <br>
+                    <label for="message">Message</label>
+                    <textarea id="message" class="text-input message-input" name="message" required
+                        placeholder="Please leave us a message" maxlength="450" rows="4" cols="50"></textarea>
                     <input id="submit-contact" class="submit-button=contact" type="submit" value="Send">
                 </form>
             </div>
-        <div id="useful-links-div">
-            <h2 class="hidden">Useful Links</h2>
-            <h2>Useful Links</h2>
-            <ul id="useful-links-list">
-                <li><a href="https://codepen.io/OshJones/pen/zYOBGxj" target="_blank">How to create the number plate as an input field</a></li>
-                <li><a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top" target="_blank">How to create and add 'to the top' button in your html</a></li>
-                <li><a href="https://copilot.microsoft.com/" target="_blank">Co-pilot - assisted me with more difficult code and pointed me in the right direction</a></li>
-                <li><a href="https://codeinstitute.net/" target="_blank">Code Institute link which i got the base knowledge from to create HTML & CSS</a></li>
-            </ul>
-        </div>
-    </section>
+            <div id="useful-links-div">
+                <h2 class="hidden">Useful Links</h2>
+                <h2>Useful Links</h2>
+                <ul id="useful-links-list">
+                    <li><a href="https://codepen.io/OshJones/pen/zYOBGxj" target="_blank">How to create the number plate
+                            as an input field</a></li>
+                    <li><a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top"
+                            target="_blank">How to create and add 'to the top' button in your html</a></li>
+                    <li><a href="https://copilot.microsoft.com/" target="_blank">Co-pilot - assisted me with more
+                            difficult code and pointed me in the right direction</a></li>
+                    <li><a href="https://codeinstitute.net/" target="_blank">Code Institute link which i got the base
+                            knowledge from to create HTML & CSS</a></li>
+                </ul>
+            </div>
+        </section>
     </main>
     <footer>
         <div id="footer-socials">
