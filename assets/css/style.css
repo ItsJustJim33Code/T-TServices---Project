@@ -455,6 +455,7 @@ iframe {
     flex-grow: 1;
     padding: 2% 5% 0 5%;
     margin-bottom: 30px;
+    height: 100%;
 }
 
 #contact-us-section {
@@ -489,14 +490,14 @@ h4 {
     border-radius: 5px;
 }
 
-#address-info,
 #opening-times {
-    padding-top: 3%;
+    padding-top: 7%;
 }
 
 #address-info {
     text-align: center;
     border-bottom: 2px solid black;
+    padding-bottom: 7%;
 }
 
 #address-info p {
@@ -506,7 +507,8 @@ h4 {
 /* Opening Times */
 
 #opening-times,
-#address-info {
+#address-info,
+#contact-us-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -516,17 +518,17 @@ h4 {
 }
 
 #opening-times h4,
-#address-info h4 {
+#address-info h4,
+#contact-form-div h4 {
     display: inline-block;
     border-bottom: 1px solid black;
 }
 
 #opening-times i,
-#address-info i {
-    margin-right: 4px;
+#address-info i,
+#contact-form-div i {
+    margin-right: 6px;
 }
-
-
 
 .next-to {
     display: flex;
