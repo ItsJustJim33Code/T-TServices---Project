@@ -482,6 +482,19 @@ iframe {
 
 /* Contact-Us Page */
 
+#contact-us-section {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+}
+
+#contact-us-section > div {
+    flex: 1; /* Each div will take up an equal amount of space */
+    border: 1px solid black;
+    padding: 20px;
+    box-sizing: border-box; /* Ensures padding and border are included in the width and height */
+}
+
+
 #contact-us-main {
     background: url("../images/gallery-photos/TandTVan.jpg") no-repeat center/cover;
     background-position: 75%;
@@ -490,14 +503,16 @@ iframe {
     margin-bottom: 30px;
 }
 
-/* address-info */
+#contact-us-main h1, h2, h3, h4 {
+    color: black
+}
 
+/* address-info */
 
 #address-div {
     background-color: rgb(32, 178, 170, 0.8);
     border: 2px solid black;
     border-radius: 5px;
-    width: fit-content;
 }
 
 #address-info,
@@ -523,13 +538,27 @@ iframe {
 /* Contact form */
 
 #contact-form-div {
-    background-color: lightcoral;
+    background-color: rgb(240, 128, 128, 0.8);
     border: 2px solid black;
     border-radius: 5px;
 }
 
+/* Useful links */
 
+#useful-links-div {
+    background-color: rgb(255, 160, 122, 0.8);
+    border: 2px solid black;
+    border-radius: 5px;
+}
 
+#useful-links-list > li {
+    color: black;
+}
+
+#useful-links-list a {
+    text-decoration: none;
+    color: #000;
+}
 
 /* Footer */
 #footer {
@@ -702,6 +731,19 @@ footer a i {
 
     .member-info {
         margin-left: 10px;
+    }
+
+    /* address-info */
+
+    #contact-us-section {
+        display: flex;
+    }
+
+    #contact-us-section > div {
+        flex: 1; /* Each div will take up an equal amount of space */
+        border: 1px solid black;
+        padding: 20px;
+        box-sizing: border-box; /* Ensures padding and border are included in the width and height */
     }
 
 
