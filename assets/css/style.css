@@ -37,12 +37,12 @@ body {
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
-  }
-  
-  #myBtn:hover {
+}
+
+#myBtn:hover {
     background-color: black;
     color: white;
-  }
+}
 
 p {
     color: whitesmoke;
@@ -123,7 +123,7 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
-    top: 100%;   
+    top: 100%;
 }
 
 /* Nav toggle */
@@ -480,6 +480,56 @@ iframe {
     line-height: 0;
 }
 
+/* Contact-Us Page */
+
+#contact-us-main {
+    background: url("../images/gallery-photos/TandTVan.jpg") no-repeat center/cover;
+    background-position: 75%;
+    flex-grow: 1;
+    padding: 20px 10% 0 10%;
+    margin-bottom: 30px;
+}
+
+/* address-info */
+
+
+#address-div {
+    background-color: rgb(32, 178, 170, 0.8);
+    border: 2px solid black;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+#address-info,
+#opening-times {
+    padding-top: 2%;
+}
+
+#address-info {
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+#address-info p {
+    color: black;
+}
+
+/* Opening Times */
+
+#opening-times th {
+    text-align: right;
+}
+
+/* Contact form */
+
+#contact-form-div {
+    background-color: lightcoral;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+
 
 /* Footer */
 #footer {
@@ -653,6 +703,7 @@ footer a i {
     .member-info {
         margin-left: 10px;
     }
+
 
     /* Footer */
     #footer {
