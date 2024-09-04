@@ -554,6 +554,10 @@ footer a i {
         margin-top: 160px;
         /* Adjust this margin to match respectivily to the header height (~+20px) */
     }
+
+    #the-team {
+        font-size: 0.9em;
+    }
 }
 
 
