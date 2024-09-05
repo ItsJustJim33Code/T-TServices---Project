@@ -53,7 +53,7 @@ h2,
 h3,
 h4 {
     font-family: 'raleway', sans-serif;
-    color: rgba(178, 188, 177, 0.8);
+    color: rgba(178, 188, 177, 1);
 }
 
 
@@ -324,7 +324,7 @@ main {
 }
 
 #address h4,
-p {
+#address p {
     margin: 10px 10px;
 }
 
@@ -346,6 +346,7 @@ iframe {
 #the-team {
     display: flex;
     flex-direction: column;
+    margin-bottom: 7%;
 }
 
 .member {
@@ -358,14 +359,17 @@ iframe {
 .member-info {
     margin-left: 0px;
     align-self: flex-start;
+
 }
 
 .member-info h3 {
     text-align: center;
+    font-weight: bold;
 }
 
 .member-info h4 {
     border-bottom: 1px solid rgba(178, 188, 177, 0.8);
+    font-weight: bold;
 }
 
 .member-info i {
@@ -408,6 +412,8 @@ iframe {
 
 /* Gallery Section */
 
+
+
 /* Lined heading creates a line either side of the element (in this case the h2) */
 
 .lined-heading {
@@ -430,6 +436,7 @@ iframe {
     width: 100%;
     line-height: 1em;
     margin-bottom: 2px;
+    padding-right: 1px;
 }
 
 #photos {
@@ -440,7 +447,6 @@ iframe {
     width: 100%;
     line-height: 1em;
     margin-bottom: 2px;
-    height: auto;
 }
 
 #videos {
@@ -476,9 +482,9 @@ iframe {
 
 
 #contact-us-main h1,
-h2,
-h3,
-h4 {
+#contact-us-main h2,
+#contact-us-main h3,
+#contact-us-main h4 {
     color: black
 }
 
