@@ -458,35 +458,28 @@ iframe {
 #contact-us-main {
     background: url("../images/gallery-photos/TandTVan.jpg") no-repeat;
     background-position: 5%;
-    flex-grow: 1;
     padding: 2% 5% 0 5%;
     height: 100%;
     margin-bottom: 7%;
+    width: 82%;
+    margin-right: 30px;
 }
 
 #contact-us-section {
     display: flex;
     flex-direction: column;
     /* Stack items vertically */
+    padding-bottom: 7px;
 }
-
-#contact-us-section > div {
-    flex: 1;
-    /* Each div will take up an equal amount of space */
-    border: 1px solid black;
-    padding: 20px;
-    box-sizing: border-box;
-    /* Ensures padding and border are included in the width and height */
-    margin-bottom: 2%;
-}
-
 
 #contact-us-main h1,
 #contact-us-main h2,
 #contact-us-main h3,
 #contact-us-main h4 {
-    color: black
+    color: black;
+    border-bottom: 2px solid black
 }
+
 
 /* address-info */
 
@@ -496,8 +489,8 @@ iframe {
     border-radius: 5px;
 }
 
-#opening-times {
-    padding-top: 7%;
+#address-info, #opening-times, #contact-form-div, #useful-links-div {
+    padding-top: 5%;
 }
 
 #address-info {
@@ -514,32 +507,15 @@ iframe {
 
 #opening-times,
 #address-info,
-#contact-us-div {
+#contact-us-div, 
+#useful-links-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     /* Center text inside the div */
-}
-
-#opening-times h4,
-#address-info h4,
-#contact-form-div h4 {
-    display: inline-block;
-    border-bottom: 1px solid black;
-}
-
-#opening-times i,
-#address-info i,
-#contact-form-div i {
-    margin-right: 6px;
-}
-
-.next-to {
-    display: flex;
-    align-items: center;
-}
+} 
 
 
 #opening-times table {
@@ -567,6 +543,7 @@ iframe {
     background-color: rgb(240, 128, 128, 0.8);
     border: 2px solid black;
     border-radius: 5px;
+    padding: 2% 2%;
 }
 
 .message-input {
@@ -593,8 +570,18 @@ iframe {
     border-radius: 5px;
 }
 
+#useful-links-div h4 {
+    border-bottom: 2px solid black;
+
+}
+
+#useful-links-list {
+    padding-top: 5%;
+}
+
 #useful-links-list>li {
     color: black;
+    margin-left: 22px;
 }
 
 #useful-links-list a {
@@ -787,38 +774,58 @@ footer a i {
         padding: 0;
     }
 
-    main#contact-us-main {
+    #contact-us-main {
         width: 100%;
     }
-    
-    section#contact-us-section {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        border: 2px dashed green; /* Temporary border to visualize the section */
-    }
-    
-    section#contact-us-section > div {
-        border: 1px solid black; /* Keep the border if needed */
-        padding: 20px;
-        box-sizing: border-box;
-        margin-bottom: 2%;
-    }
-    
-    section#contact-us-section div#address-div, 
-    section#contact-us-section div#contact-form-div {
-        flex: 0 1 48%; /* Each will take up approximately 48% of the width */
-        max-width: 48%; /* Ensures they don't exceed 48% of the width */
-        border: 2px dashed red; /* Temporary border to visualize the divs */
-    }
-    
-    section#contact-us-section div#useful-links-div {
-        flex: 1 1 100%; /* Takes up 100% of the width */
-        border: 2px dashed blue; /* Temporary border to visualize the div */
-    }
-    
-    
 
+    #contact-us-main {
+        background: url("../images/gallery-photos/TandTVan.jpg") no-repeat center/cover;
+        padding: 2% 5% 0 5%;
+        height: 100%;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    #top-divs {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .box1, .box2 {
+        flex: 1;
+        flex-direction: row;
+        min-width: 33%;
+        max-width: 33%;
+        padding: 10px;
+        border: 1px solid #000;
+    }
+
+    .full-width {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        border: 1px solid #000;
+    }
+
+    #useful-links-list {
+        padding-left: 5%;
+    }
+
+    #address-info {
+
+    }
+    #opening-times {
+
+    }
+    #contact-form-div {
+
+    }
+    #useful-links-div {
+        padding: 0;
+        margin: 0;
+    }
+
+    
 
 
     /* Footer */

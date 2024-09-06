@@ -65,87 +65,89 @@
         </script>
         <section id="contact-us-section">
             <h2 class="hidden">Address section</h2>
-            <div id="address-div">
-                <div id="address-info">
-                    <div class="next-to">
-                        <i class="fa-solid fa-address-book"></i>
-                        <h4> Address: </h4>
+            <div id="top-divs">
+                <div id="address-div" class="box1">
+                    <div id="address-info">
+                        <div class="next-to">
+                            <i class="fa-solid fa-address-book"></i>
+                            <h4> Address: </h4>
+                        </div>
+                        <p>Hayling industrial park</p>
+                        <p>132 Havant Road</p>
+                        <p>Hayling island</p>
+                        <p>PO11 0LJ</p>
+                        <p>+44 2392 637 649</p>
                     </div>
-                    <p>Hayling industrial park</p>
-                    <p>132 Havant Road</p>
-                    <p>Hayling island</p>
-                    <p>PO11 0LJ</p>
-                    <p>+44 2392 637 649</p>
+                    <div id="opening-times">
+                        <div class="next-to">
+                            <i class="fa-solid fa-person-walking"></i>
+                            <h4> Opening Times: </h4>
+                        </div>
+                        <br>
+                        <table>
+                            <tr>
+                                <th>Sunday: </th>
+                                <td>Closed</td>
+                            </tr>
+                            <tr>
+                                <th>Monday: </th>
+                                <td>8am - 5pm</td>
+                            </tr>
+                            <tr>
+                                <th>Tuesday: </th>
+                                <td>8am - 5pm</td>
+                            </tr>
+                            <tr>
+                                <th>Wednesday: </th>
+                                <td>8am - 5pm</td>
+                            </tr>
+                            <tr>
+                                <th>Thursday: </th>
+                                <td>8am - 5pm</td>
+                            </tr>
+                            <tr>
+                                <th>Friday: </th>
+                                <td>8am - 5pm</td>
+                            </tr>
+                            <tr>
+                                <th>Saturday: </th>
+                                <td>9am - 12 noon</td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
-                <div id="opening-times">
-                    <div class="next-to">
-                        <i class="fa-solid fa-person-walking"></i>
-                        <h4> Opening Times: </h4>
+                <div id="contact-form-div" class="box2">
+                    <div id="contact-us-div">
+                        <div class="next-to">
+                            <i class="fa-solid fa-envelope"></i>
+                            <h4>Contact Us!</h4>
+                        </div>
                     </div>
-                    <br>
-                    <table>
-                        <tr>
-                            <th>Sunday: </th>
-                            <td>Closed</td>
-                        </tr>
-                        <tr>
-                            <th>Monday: </th>
-                            <td>8am - 5pm</td>
-                        </tr>
-                        <tr>
-                            <th>Tuesday: </th>
-                            <td>8am - 5pm</td>
-                        </tr>
-                        <tr>
-                            <th>Wednesday: </th>
-                            <td>8am - 5pm</td>
-                        </tr>
-                        <tr>
-                            <th>Thursday: </th>
-                            <td>8am - 5pm</td>
-                        </tr>
-                        <tr>
-                            <th>Friday: </th>
-                            <td>8am - 5pm</td>
-                        </tr>
-                        <tr>
-                            <th>Saturday: </th>
-                            <td>9am - 12 noon</td>
-                        </tr>
-                    </table>
+                    <form method="POST" action="https://formdump.codeinstitute.net/">
+                        <br>
+                        <input id="contact-form-input" class="hidden" name="contact-form" type="text">
+                        <label for="first-name-contact">First Name:</label>
+                        <input id="first-name-contact" class="text-input" name="first-name" type="text" required>
+                        <br>
+                        <label for="last-name-contact">Last Name:</label>
+                        <input id="last-name-contact" class="text-input" name="last-name" type="text" required>
+                        <br>
+                        <label for="email-contact">Email Address:</label>
+                        <input id="email-contact" class="text-input" name="email" type="email" required>
+                        <br>
+                        <label for="message">Message</label>
+                        <textarea id="message" class="text-input message-input" name="message" required
+                            placeholder="Please leave us a message" maxlength="450" rows="4" cols="50"></textarea>
+                        <input id="submit-contact" class="submit-button=contact" type="submit" value="Send">
+                    </form>
                 </div>
             </div>
-            <div id="contact-form-div">
-                <div id="contact-us-div">
-                    <div class="next-to">
-                        <i class="fa-solid fa-envelope"></i>
-                        <h4>Contact Us!</h4>
-                    </div>
-                </div>
-                <form method="POST" action="https://formdump.codeinstitute.net/">
-                    <br>
-                    <input id="contact-form-input" class="hidden" name="contact-form" type="text">
-                    <label for="first-name-contact">First Name:</label>
-                    <input id="first-name-contact" class="text-input" name="first-name" type="text" required>
-                    <br>
-                    <label for="last-name-contact">Last Name:</label>
-                    <input id="last-name-contact" class="text-input" name="last-name" type="text" required>
-                    <br>
-                    <label for="email-contact">Email Address:</label>
-                    <input id="email-contact" class="text-input" name="email" type="email" required>
-                    <br>
-                    <label for="message">Message</label>
-                    <textarea id="message" class="text-input message-input" name="message" required
-                        placeholder="Please leave us a message" maxlength="450" rows="4" cols="50"></textarea>
-                    <input id="submit-contact" class="submit-button=contact" type="submit" value="Send">
-                </form>
-            </div>
-            <div id="useful-links-div">
-                <h2 class="hidden">Useful Links</h2>
-                <h2>Useful Links</h2>
+            <div id="useful-links-div" class="full-width">
+                <h4>Useful Links</h4>
                 <ul id="useful-links-list">
                     <li><a href="https://www.gov.uk/government/organisations/driver-and-vehicle-licensing-agency"
-                            target="_blank" rel="noopener" aria-label="Driver and vehicle licensing agency">DVLA</a></li>
+                            target="_blank" rel="noopener" aria-label="Driver and vehicle licensing agency">DVLA</a>
+                    </li>
                     <li><a href="https://www.gov.uk/browse/driving/learning-to-drive" target="_blank" rel="noopener"
                             aria-label="Learning to drive">Driving Tests &amp; Learning To Drive</a></li>
                     <li><a href="https://www.gov.uk/renew-driving-licence" target="_blank" rel="noopener"
