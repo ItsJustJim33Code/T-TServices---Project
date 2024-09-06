@@ -511,7 +511,8 @@ iframe {
 #opening-times,
 #address-info,
 #contact-us-div,
-#useful-links-div {
+#useful-links-div, 
+#useful-links-div ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -595,11 +596,6 @@ iframe {
     color: #000;
 }
 
-#useful-links-list>li:hover,
-#useful-links-list a:hover {
-    color: white;
-}
-
 /* Footer */
 #footer {
     display: flex;
@@ -608,6 +604,7 @@ iframe {
     background-color: black;
     border-top: 4px solid rgba(178, 188, 177, 0.8);
     justify-content: space-between;
+    position: relative;
 }
 
 #footer div {
@@ -773,7 +770,21 @@ footer a i {
         margin-left: 10px;
     }
 
-    /* address-info */
+    /* address-info + General settings */
+
+    #address-info {
+        padding-bottom: 2%;
+    }
+
+    #opening-times {
+        padding-top: 2%;
+    }
+
+    #contact-form-div {
+        margin-top: 0;
+        padding-top: 5%;
+
+    }
 
     /* Contact us page */
 
@@ -791,7 +802,7 @@ footer a i {
         padding: 2% 5% 0 5%;
         height: 100%;
         width: 100%;
-        margin-bottom: 0;
+        margin-bottom: 30px;
     }
 
     #top-divs {
@@ -807,34 +818,50 @@ footer a i {
         max-width: 33%;
         padding: 10px;
         border: 1px solid #000;
+        margin-left: 10%;
     }
 
     .full-width {
-        width: 100%;
+        width: 76%;
         box-sizing: border-box;
         padding: 10px;
         border: 1px solid #000;
     }
 
+    /* Useful links section */
+
     #useful-links-list {
-        padding-left: 5%;
+        padding: 2% 0 0 0;
     }
-
-    #address-info {}
-
-    #opening-times {}
-
-    #contact-form-div {}
 
     #useful-links-div {
-        padding: 0;
-        margin: 0;
+        padding: 2% 0;
+        margin-left: 10%;
     }
 
+    #useful-links-list>li:hover,
+    #useful-links-list a:hover {
+        color: white;
+    }
 
-
+    #useful-links-div ul {
+        display: inline-block;
+        list-style-type: disc;
+        padding: 0;
+        columns: 3;
+        column-gap: 0;
+        padding-top: 2%;
+    }
+    #useful-links-list > li {
+        flex: 1 1 50%;
+        box-sizing: border-box;
+        padding: 10px;
+        border: 1px solid #000;
+        text-align: center;
+    }
 
     /* Footer */
+
     #footer {
         position: relative;
         justify-content: space-between;
