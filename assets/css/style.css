@@ -88,7 +88,7 @@ header a {
 }
 
 #logo-circle {
-    background: url('../images/T&TServices.jpg') no-repeat top center / cover;
+    background: url('../images/t&tservices.jpg') no-repeat top center / cover;
     height: 200px;
     /* Increase height to fit within the larger header if changed */
     width: 200px;
@@ -163,7 +163,9 @@ main {
 
 #about-section {
     width: 100%;
-    background: url("../images/MechanicWork.webp") no-repeat center/cover;
+    background: url("../images/mechanicwork.webp") no-repeat center/cover;
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
 #about-section h4 {
@@ -180,6 +182,8 @@ main {
     /* Final rgba value sets the opacity so it is semi-transparent */
     background-color: rgba(0, 0, 0, 0.7);
     font-size: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
     /* margin and padding to move the text away from the edges of the background */
     margin: 10px 10px 10px 10px;
     padding-bottom: 1%;
@@ -467,7 +471,7 @@ iframe {
 /* Contact-Us Page */
 
 #contact-us-main {
-    background: url("../images/gallery-photos/TandTVan.jpg") no-repeat;
+    background: url("../images/gallery-photos/tandtvan.jpg") no-repeat;
     background-position: 5%;
     padding: 2% 5% 0 5%;
     height: 100%;
@@ -808,7 +812,7 @@ footer a i {
 
 
     #contact-us-main {
-        background: url("../images/gallery-photos/TandTVan.jpg") no-repeat center/cover;
+        background: url("../images/gallery-photos/tandtvan.jpg") no-repeat center/cover;
         padding: 2% 5% 0 5%;
         height: 100%;
         width: 90%;
@@ -998,7 +1002,7 @@ footer a i {
     /* contact us page */
 
     #contact-us-main {
-        background: url("../images/gallery-photos/TandTVan.jpg") no-repeat center/cover;
+        background: url("../images/gallery-photos/tandtvan.jpg") no-repeat center/cover;
         padding: 2% 5% 0 5%;
         height: 100%;
         width: 97%;
