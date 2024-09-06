@@ -489,7 +489,10 @@ iframe {
     border-radius: 5px;
 }
 
-#address-info, #opening-times, #contact-form-div, #useful-links-div {
+#address-info,
+#opening-times,
+#contact-form-div,
+#useful-links-div {
     padding-top: 5%;
 }
 
@@ -507,7 +510,7 @@ iframe {
 
 #opening-times,
 #address-info,
-#contact-us-div, 
+#contact-us-div,
 #useful-links-div {
     display: flex;
     flex-direction: column;
@@ -515,7 +518,7 @@ iframe {
     align-items: center;
     text-align: center;
     /* Center text inside the div */
-} 
+}
 
 
 #opening-times table {
@@ -544,6 +547,7 @@ iframe {
     border: 2px solid black;
     border-radius: 5px;
     padding: 2% 2%;
+    margin-top: 5px;
 }
 
 .message-input {
@@ -568,6 +572,7 @@ iframe {
     background-color: rgb(255, 160, 122, 0.8);
     border: 2px solid black;
     border-radius: 5px;
+    margin-top: 5px;
 }
 
 #useful-links-div h4 {
@@ -581,7 +586,8 @@ iframe {
 
 #useful-links-list>li {
     color: black;
-    margin-left: 22px;
+    margin: 0 5px 5px 22px;
+    text-align: left;
 }
 
 #useful-links-list a {
@@ -589,7 +595,8 @@ iframe {
     color: #000;
 }
 
-#useful-links-list>li:hover, #useful-links-list a:hover  {
+#useful-links-list>li:hover,
+#useful-links-list a:hover {
     color: white;
 }
 
@@ -770,7 +777,8 @@ footer a i {
 
     /* Contact us page */
 
-    #address-info, #opening-times {
+    #address-info,
+    #opening-times {
         padding: 0;
     }
 
@@ -791,7 +799,8 @@ footer a i {
         flex-direction: row;
     }
 
-    .box1, .box2 {
+    .box1,
+    .box2 {
         flex: 1;
         flex-direction: row;
         min-width: 33%;
@@ -811,21 +820,18 @@ footer a i {
         padding-left: 5%;
     }
 
-    #address-info {
+    #address-info {}
 
-    }
-    #opening-times {
+    #opening-times {}
 
-    }
-    #contact-form-div {
+    #contact-form-div {}
 
-    }
     #useful-links-div {
         padding: 0;
         margin: 0;
     }
 
-    
+
 
 
     /* Footer */
