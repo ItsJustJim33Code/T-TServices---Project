@@ -898,7 +898,6 @@ footer a i {
         font-size: 1.2em;
     }
 
-
     /* about section */
 
     #about-section {
@@ -936,8 +935,8 @@ footer a i {
     /* Booking section */
 
     #booking-section {
-        background: none;
-        padding-left: 3%;
+        background-color: slategray;
+        padding-left: 5%;
     }
 
 
