@@ -27,8 +27,8 @@ body {
 #myBtn {
     display: none;
     position: fixed;
-    bottom: 40px;
-    right: 30px;
+    bottom: 55px;
+    right: 10px;
     z-index: 99;
     font-size: 12px;
     border: none;
@@ -36,7 +36,7 @@ body {
     background-color: rgba(178, 188, 177, 0.8);
     color: black;
     cursor: pointer;
-    padding: 15px;
+    padding: 12px;
     border-radius: 4px;
 }
 
@@ -311,6 +311,7 @@ main {
     color: white;
     border-radius: 5px;
     margin-top: 5px;
+    padding: 2px 4px 2px 4px;
 }
 
 /* address */
@@ -499,7 +500,7 @@ iframe {
 /* address-info */
 
 #address-div {
-    background-color: rgb(32, 178, 170, 0.8);
+    background-color: rgb(112,128,144, 0.8);
     border: 2px solid black;
     border-radius: 5px;
 }
@@ -519,6 +520,8 @@ iframe {
 
 #address-info p {
     color: black;
+    font-weight: 600;
+    padding-top: 4px;
 }
 
 /* Opening Times */
@@ -559,11 +562,23 @@ iframe {
 /* Contact form */
 
 #contact-form-div {
-    background-color: rgb(240, 128, 128, 0.8);
+    background-color: rgba(178, 188, 177, 0.8);
     border: 2px solid black;
     border-radius: 5px;
     padding: 2% 2%;
     margin-top: 5px;
+}
+
+#contact-form-div label {
+    font-weight: 600;
+}
+
+#submit-contact {
+    color: whitesmoke;
+    background-color: black;
+    padding: 2px 4px 2px 2px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 .message-input {
@@ -604,6 +619,9 @@ iframe {
     color: black;
     margin: 0 5px 5px 22px;
     text-align: left;
+    list-style-type: none;
+    border-bottom: 1px solid black;
+
 }
 
 #useful-links-list a {
