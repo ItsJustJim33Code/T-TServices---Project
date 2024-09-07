@@ -600,7 +600,7 @@ iframe {
 /* Useful links */
 
 #useful-links-div {
-    background-color: rgb(255, 160, 122, 0.8);
+    background-color: rgba(85, 107, 47, 0.8);
     border: 2px solid black;
     border-radius: 5px;
     margin-top: 5px;
@@ -617,7 +617,8 @@ iframe {
 
 #useful-links-list>li {
     color: black;
-    margin: 0 5px 5px 22px;
+    font-weight: 600;
+    margin: 0 8px 5px 22px;
     text-align: left;
     list-style-type: none;
     border-bottom: 1px solid black;
@@ -865,9 +866,12 @@ footer a i {
         margin-left: 10%;
     }
 
-    #useful-links-list>li:hover,
-    #useful-links-list a:hover {
-        color: white;
+    #useful-links-list>li:hover {
+        border: 3px solid slategray;   
+    }
+
+    #useful-links-list>li:hover a {
+        color: whitesmoke;
     }
 
     #useful-links-div ul {
@@ -882,7 +886,8 @@ footer a i {
         flex: 1 1 50%;
         box-sizing: border-box;
         padding: 10px;
-        border: 1px solid #000;
+        border: 2px solid #000;
+        border-radius: 5px;
         text-align: center;
     }
 
