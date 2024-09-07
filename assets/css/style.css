@@ -500,7 +500,7 @@ iframe {
 /* address-info */
 
 #address-div {
-    background-color: rgb(112,128,144, 0.8);
+    background-color: rgb(112, 128, 144, 0.8);
     border: 2px solid black;
     border-radius: 5px;
 }
@@ -529,7 +529,7 @@ iframe {
 #opening-times,
 #address-info,
 #contact-us-div,
-#useful-links-div, 
+#useful-links-div,
 #useful-links-div ul {
     display: flex;
     flex-direction: column;
@@ -632,46 +632,48 @@ iframe {
 
 /* Footer */
 
-#footer {
-    display: flex;
-    list-style-type: none;
+footer {
+    background-color: black;
     padding: 1% 0 1% 0;
     background-color: black;
-    border-top: 4px solid rgba(178, 188, 177, 0.8);
-    justify-content: space-between;
-    position: relative;
+    border-top: 4px solid rgba(178, 188, 177, 1);
+    color: rgba(178, 188, 177, 1);
 }
 
-#footer div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 1em;
+#footer-socials {
+    text-align: center;
+    padding: 8px 0;
 }
 
-#footer li {
-    color: white;
-    margin: 0 20px 0 20px;
+#footer-socials ul {
+    text-align: center;
 }
 
-footer a {
-    display: flex;
-    align-items: center;
+#footer-socials li {
+    list-style-type: none;
     text-decoration: none;
-    color: rgba(178, 188, 177, 0.8);
+    display: inline-block;
+    color: rgba(178, 188, 177, 1);
 }
 
-footer a i {
-    margin-right: 8px;
+#footer-socials li>a, #footer-socials li>i {
+    text-decoration: none;
+    color: rgba(178, 188, 177, 1);
+    padding: 5px 5px;
 }
+
+#footer-socials li i {
+    padding-right: 5px;
+}
+
+
 
 /* Mobile screens (471px and up) */
 @media screen and (min-width: 471px) {
 
-    /* Map Section */
 
-    /* hides this content on screens larger than 471px as the map is able to show full contents beyond that */
-
+    /* hides this content on screens larger than 471px as the map is able to show full contents beyond that which shows the address within
+    the map */
     #address {
         display: none
     }
@@ -876,7 +878,7 @@ footer a i {
 
     #useful-links-list>li:hover {
         border: 3px solid black;
-        background-color: slategray;   
+        background-color: slategray;
     }
 
     #useful-links-list>li:hover a {
@@ -891,7 +893,8 @@ footer a i {
         column-gap: 0;
         padding-top: 2%;
     }
-    #useful-links-list > li {
+
+    #useful-links-list>li {
         flex: 1 1 50%;
         box-sizing: border-box;
         padding: 10px;
@@ -902,19 +905,34 @@ footer a i {
 
     /* Footer */
 
-    #footer {
-        position: relative;
-        justify-content: space-between;
+    footer {
+        background-color: black;
+        padding: 1% 0 1% 0;
+        background-color: black;
+        border-top: 4px solid rgba(178, 188, 177, 1);
+        color: rgba(178, 188, 177, 1);
     }
 
-    #footer li {
-        margin: 0 20px
+    #footer-socials {
+        text-align: center;
+        padding: 20px 0;
     }
 
-    footer a {
-        display: inline;
+    #footer-socials ul {
+        text-align: center;
+    }
+
+    #footer-socials li {
+        list-style-type: none;
         text-decoration: none;
-        color: rgba(178, 188, 177, 0.8);
+        display: inline-block;
+        color: rgba(178, 188, 177, 1);
+    }
+
+    #footer-socials li>a, #footer-socials li>i {
+        text-decoration: none;
+        color: rgba(178, 188, 177, 1);
+        padding: 5px 5px;
     }
 }
 
@@ -1033,5 +1051,13 @@ footer a i {
         height: 100%;
         width: 97%;
         margin-bottom: 30px;
+    }
+
+    #footer-socials {
+        text-align: center;
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
     }
 }
