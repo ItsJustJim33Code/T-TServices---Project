@@ -374,7 +374,8 @@ iframe {
 }
 
 .member-info h3 {
-    border-bottom: 1px solid rgba(178, 188, 177, 0.8);
+    border-bottom: 1px solid rgba(178, 188, 177, 1);
+    border-radius: 3px;
     font-weight: bold;
 }
 
@@ -493,7 +494,8 @@ iframe {
 #contact-us-main h3,
 #contact-us-main h4 {
     color: black;
-    border-bottom: 2px solid black
+    border-bottom: 2px solid black;
+    border-radius: 3px;
 }
 
 
@@ -677,6 +679,15 @@ footer {
     #address {
         display: none
     }
+
+    #footer-socials {
+        text-align: center;
+        padding: 5px 0;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: larger;
+        font-weight: 900;
+    }
 }
 
 
@@ -711,6 +722,10 @@ footer {
     #the-team {
         font-size: 0.9em;
     }
+
+
+
+
 }
 
 
@@ -778,8 +793,9 @@ footer {
     /* booking section */
 
     .book-service .submit-button:hover {
-        background: white;
+        background: whitesmoke;
         color: black;
+        font-weight: bold;
     }
 
     /* Meet the team */
@@ -860,8 +876,9 @@ footer {
     /* contact us form */
 
     #submit-contact:hover {
-        background: white;
+        background: whitesmoke;
         color: black;
+        font-weight: bold;
     }
 
     /* Useful links section */
