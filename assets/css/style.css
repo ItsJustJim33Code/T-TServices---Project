@@ -175,7 +175,8 @@ main {
 
 #about-section p {
     color: whitesmoke;
-    margin-left: 5px;
+    margin: 5px 0 0 5px;
+    
 }
 
 #about {
@@ -193,6 +194,7 @@ main {
 #about div h4 {
     letter-spacing: 1px;
     margin-left: 5px;
+    padding-bottom: 4px;
 }
 
 #about div {
