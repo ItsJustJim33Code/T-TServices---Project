@@ -10,6 +10,8 @@
     box-sizing: border-box;
 }
 
+/* hides elements when required */
+
 .hidden {
     display: none;
 }
@@ -24,6 +26,8 @@ body {
     width: 100%;
 }
 
+/* T to the top button (for quick navigation from the bottom of the page since the nav
+bar design would work on a static + scroll) */
 #myBtn {
     display: none;
     position: fixed;
@@ -45,6 +49,8 @@ body {
     color: white;
 }
 
+/* Default styles */
+
 p {
     color: whitesmoke;
 }
@@ -57,6 +63,7 @@ h4 {
     color: rgba(178, 188, 177, 1);
 }
 
+/* Header */ 
 
 header {
     background-color: black;
@@ -110,6 +117,8 @@ header a {
     color: white;
     text-transform: uppercase;
 }
+
+/* Shows which page is the active page in the nav bar */
 
 .active {
     border-bottom: 3px solid rgba(178, 188, 177, 0.8);
@@ -433,7 +442,7 @@ iframe {
 
 
 
-/* Lined heading creates a line either side of the element (in this case the h2) */
+/* Lined heading creates a line either side of the element */
 
 .lined-heading {
     display: flex;
@@ -547,7 +556,6 @@ iframe {
 #opening-times table {
     border-collapse: collapse;
     width: 50%;
-    /* Adjust as needed */
 }
 
 #opening-times th {
@@ -626,7 +634,6 @@ iframe {
     text-align: left;
     list-style-type: none;
     border-bottom: 2px solid black;
-
 }
 
 #useful-links-list a {
@@ -853,6 +860,8 @@ footer {
         margin-bottom: 30px;
     }
 
+    /* sets the divs to display two on top and one below on the contact us page */
+
     #top-divs {
         display: flex;
         flex-direction: row;
@@ -862,14 +871,18 @@ footer {
     .box2 {
         flex: 1;
         flex-direction: row;
+        /* sets the size of the box as 33% of the screen */
         min-width: 33%;
+        /* ensures max-width is never exceeded */
         max-width: 33%;
         padding: 10px;
         border: 1px solid #000;
         margin-left: 10%;
     }
 
+
     .full-width {
+        /* ensures the width of this elements matches the width and gap taken up by the divs above it */
         width: 76%;
         box-sizing: border-box;
         padding: 10px;
