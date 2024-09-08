@@ -176,7 +176,7 @@ main {
 #about-section p {
     color: whitesmoke;
     margin: 5px 0 0 5px;
-    
+
 }
 
 #about {
@@ -582,7 +582,6 @@ iframe {
     color: whitesmoke;
     background-color: black;
     padding: 2px 4px 2px 2px;
-    border: 1px solid black;
     border-radius: 5px;
 }
 
@@ -661,7 +660,8 @@ footer {
     color: rgba(178, 188, 177, 1);
 }
 
-#footer-socials li>a, #footer-socials li i {
+#footer-socials li>a,
+#footer-socials li i {
     text-decoration: none;
     color: rgba(178, 188, 177, 1);
     padding: 5px 5px;
