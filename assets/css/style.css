@@ -246,6 +246,7 @@ main {
 
 .text-input {
     color: black;
+    font-weight: bold;
     background: transparent;
     border: 2px solid black;
     border-radius: 5px;
@@ -595,6 +596,7 @@ iframe {
 
 .message-input {
     color: black;
+    font-weight: bold;
     background: transparent;
     border: 2px solid black;
     border-radius: 5px;
