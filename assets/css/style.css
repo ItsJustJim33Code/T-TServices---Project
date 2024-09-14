@@ -27,7 +27,7 @@ body {
 }
 
 /* T to the top button (for quick navigation from the bottom of the page since the nav
-bar design would work on a static + scroll) */
+bar design would work on a static + scroll) !Referenced Code!*/
 #myBtn {
     display: none;
     position: fixed;
@@ -257,7 +257,7 @@ main {
     box-sizing: border-box;
 }
 
-/* create Number plate input */
+/* create Number plate input !Referenced Code! */
 
 .reg-ui {
     background: linear-gradient(to bottom, #f8d038 0%, #f5ca2e 100%);
