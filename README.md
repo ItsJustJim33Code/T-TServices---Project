@@ -6,7 +6,7 @@ Welcome to T&T Vehicle Center Website!
 
 **September 15, 2024**
 
- <img src="./assets/images/readme images/mobilescreenshot1.png" width="260"/> <img src="./assets/images/readme images/laptopscreenshot.png" height="750" width="850"/> <img src="./assets/images/readme images/mobilescreenshot2.png" width="260"/> 
+ <img src="./assets/images/readme images/mobilescreenshot1.png" width="260"/> <img src="./assets/images/readme images/laptopscreenshot.png" height="750" width="800"/> <img src="./assets/images/readme images/mobilescreenshot2.png" width="260"/> 
 
 ## Description
 
